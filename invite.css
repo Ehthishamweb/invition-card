@@ -1,0 +1,84 @@
+body{
+    font-family: poppins;
+    background: #c6aeae;
+
+}
+.title{
+    font-style: italic;
+}
+.card{position: relative;
+    margin: 150px auto;
+    width: 450px;
+    padding: 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0,0, 0.9);
+    border-radius:15px;
+    border: 0;
+  
+}
+.circle{
+    border-radius: 2px;
+    width: 155px;
+    height: 155px;
+    background: #69709d;
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   background: linear-gradient(90deg, rgb(228, 236, 220) 0%, rgb(44, 120, 170) 50%, rgb(55, 54, 52) 100%);
+   border-bottom-left-radius: 170px;
+}
+.content{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.social{
+    margin-bottom: 5px;
+}
+    
+a{
+    text-decoration: none;
+    color: rgb(1, 4, 15);
+    margin-left: 5px;
+    font-weight: 400;
+}
+i{
+    font-weight: 300;
+    text-decoration: dashed;
+    margin-right: 10px;
+}
+button{
+    font-style: italic;
+    color: rgb(193, 214, 214);
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px rgba(35, 6, 222, 0.9);
+    
+
+}
+button:hover{
+    background: #7d57ee;
+}
+button:active{
+    background: rgba(255, 255, 255, 0.27);
+}
+i:hover{
+    background: #791bd6;
+}
+p{
+    background: #da0808;
+    position: absolute;
+    margin-left: 600px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
